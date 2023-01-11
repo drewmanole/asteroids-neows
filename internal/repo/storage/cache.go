@@ -1,6 +1,9 @@
 package storage
 
-import "github.com/drewmanole/asteroids-neows/internal/entity"
+import (
+	"github.com/drewmanole/asteroids-neows/internal/entity"
+	"github.com/drewmanole/asteroids-neows/internal/errors"
+)
 
 type cache struct {
 	data map[string]entity.AsteroidsReport
@@ -26,7 +29,7 @@ func (c *cache) check(dates []string) bool {
 // TODO Кэш отсортировать массив
 func (c *cache) get(dates []string) ([]entity.AsteroidsReport, error) {
 	if !c.check(dates) {
-		return nil, ErrReportsNotFound
+		return nil, errors.ErrReportsNotFound
 	}
 
 	res := make([]entity.AsteroidsReport, 0, len(dates))
