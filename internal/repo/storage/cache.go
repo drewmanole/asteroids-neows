@@ -1,8 +1,8 @@
 package storage
 
 import (
-	"github.com/drewmanole/asteroids-neows/internal/entity"
-	"github.com/drewmanole/asteroids-neows/internal/errors"
+	"asteroids-neows/internal/entity"
+	"asteroids-neows/internal/errors"
 )
 
 type cache struct {

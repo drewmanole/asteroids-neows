@@ -1,9 +1,9 @@
 package usecase
 
 import (
-	"github.com/drewmanole/asteroids-neows/internal/entity"
-	"github.com/drewmanole/asteroids-neows/internal/errors"
-	"github.com/drewmanole/asteroids-neows/internal/interfaces"
+	"asteroids-neows/internal/entity"
+	"asteroids-neows/internal/errors"
+	"asteroids-neows/internal/interfaces"
 )
 
 type AsteroidsUseCase struct {

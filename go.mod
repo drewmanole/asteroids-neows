@@ -1,4 +1,4 @@
-module github.com/drewmanole/asteroids-neows
+module asteroids-neows
 
 go 1.19
 

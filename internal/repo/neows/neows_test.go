@@ -1,8 +1,8 @@
 package neows_test
 
 import (
-	"github.com/drewmanole/asteroids-neows/internal/entity"
-	"github.com/drewmanole/asteroids-neows/internal/repo/neows"
+	"asteroids-neows/internal/entity"
+	"asteroids-neows/internal/repo/neows"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

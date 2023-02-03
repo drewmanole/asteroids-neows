@@ -1,10 +1,10 @@
 package transport
 
 import (
+	"asteroids-neows/internal/entity"
+	"asteroids-neows/internal/interfaces"
 	"encoding/json"
 	"github.com/gin-gonic/gin"
-	"github.com/drewmanole/asteroids-neows/internal/entity"
-	"github.com/drewmanole/asteroids-neows/internal/interfaces"
 	"net/http"
 )
 

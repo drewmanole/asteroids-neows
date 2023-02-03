@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/drewmanole/asteroids-neows/config"
-	"github.com/drewmanole/asteroids-neows/internal/app"
+	"asteroids-neows/config"
+	"asteroids-neows/internal/app"
 )
 
 func main() {

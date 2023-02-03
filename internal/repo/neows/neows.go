@@ -1,8 +1,8 @@
 package neows
 
 import (
+	"asteroids-neows/internal/entity"
 	"encoding/json"
-	"github.com/drewmanole/asteroids-neows/internal/entity"
 	"io"
 	"net/http"
 	"net/url"

@@ -1,8 +1,8 @@
 package storage
 
 import (
+	"asteroids-neows/internal/entity"
 	"github.com/jmoiron/sqlx"
-	"github.com/drewmanole/asteroids-neows/internal/entity"
 )
 
 const (
