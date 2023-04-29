@@ -1,15 +1,14 @@
 # Asteroids NeoWs API
 
-API для сервиса NASA Asteroids NeoWs, который позволяет получить количество астероидов, находящихся рядом с Землей, за
-определённую дату.
+API for the NASA Asteroids NeoWs service, which allows you to get the number of asteroids near Earth for a given date.
 
-## Как работать с API
+## How to use
 
-Сервис имеет REST-архитектуру со следующими методами:
+The service has a REST architecture with the following methods:
 
 ### `GET`
 
-Возвращает количество астероидов по дате. На вход приходят разные даты в формате `ҮҮҮҮ-ММ-DD`:
+Returns the number of asteroids for a given date. Different dates in the format `YYYY-MM-DD` can be passed as input:
 
 ```
 /neo/count?dates=2020-01-20&dates=2020-03-20&dates=2020-05-24&dates=2020-08-22
@@ -17,8 +16,8 @@ API для сервиса NASA Asteroids NeoWs, который позволяе�
 
 ### `POST`
 
-Записывает (или обновляет, если такая дата уже есть) данные в БД.
-На вход по адресу `/neo/count` приходит массив из дат и количества астероидов в JSON:
+Writes (or updates if the date already exists) data to the database.
+An array of dates and the number of asteroids in JSON is received at the address `/neo/count`:
 
 ```
 {
